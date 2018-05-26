@@ -15,7 +15,7 @@ public class Diconfig {
 		
 		return u;
 	}
-//	@Bean
+	@Bean
 	public FunctionServer FunctionService() {
 		return new FunctionServer();
 	}
