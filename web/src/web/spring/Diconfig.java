@@ -12,9 +12,10 @@ public class Diconfig {
 	public UserFunctionService UserFunctionService(FunctionServer FunctionService) {
 		UserFunctionService u = new UserFunctionService();
 		u.setS(FunctionService);
+		
 		return u;
 	}
-	@Bean
+//	@Bean
 	public FunctionServer FunctionService() {
 		return new FunctionServer();
 	}
