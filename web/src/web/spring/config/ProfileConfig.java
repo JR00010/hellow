@@ -11,6 +11,12 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.Environment;
 
 import web.spring.domain.DemoBean;
+/**
+ * @author shuijun liu
+ * @时间：2018年5月29日 上午10:22:52  
+ * @版本：
+ * @注释：    针对开发配置文件、和生产的配置文件测试
+ */
 @Configuration
 //@PropertySource("classpath:web/test.propertis")
 @ComponentScan("web.spring.config")

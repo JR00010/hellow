@@ -4,6 +4,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.ApplicationContextEvent;
 
+/**
+ * @author shuijun liu
+ * @时间：2018年5月29日 上午10:26:10  
+ * @版本：
+ * @注释：    测试事件监听
+ */
 public class DemoEvent extends ApplicationEvent{
 
 	/**

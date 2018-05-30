@@ -26,7 +26,7 @@ public class AwareService implements BeanNameAware,ResourceLoaderAware,MessageSo
 	public void outputResult(){
 		System.out.println("Bean的名称为：" + beanName);
 		Resource resource =
-				loader.getResource("classpath:com/wisely/highlight_spring4/ch2/aware/test.txt");
+				loader.getResource("classpath:web/banner.txt");
 		try{
 			System.out.println("ResourceLoader加载的文件内容为: " + IOUtils.toString(resource.getInputStream()));
 		}catch(IOException e){
